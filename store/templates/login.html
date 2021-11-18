@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
-{% block title %}Eshop | Signup {% endblock%}
+{% block title %}Kasuwa | Login {% endblock%}
 {% block content %}
 <div class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <h1 class="font-weight-light">Login | Eshop </h1>
+            <h1 class="font-weight-light">Login |<b> Kasuwa</b> </h1>
             <hr>
             <form action="{% url 'login' %}" method="POST">
                 {% csrf_token %}
